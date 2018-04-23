@@ -1,3 +1,14 @@
 body{
   background-color: burlyWood;
 }
+
+#header{
+  background-color: oliveDrab;
+  border: 0.1em solid seaGreen;
+  color: paleGoldenRod;
+  font-family: 'Montserrat', sans-serif;
+  height: 3em;
+  position: static;
+  text-align: center;
+  width: 90vw;
+}
