@@ -1,5 +1,5 @@
 body{
-  background-color: burlyWood;
+  background-color: whiteSmoke;
 }
 
 #header{
@@ -10,5 +10,42 @@ body{
   height: 3em;
   position: static;
   text-align: center;
-  width: 90vw;
+  width: 60em;
+}
+
+.box{
+  background-color: lemonChiffon;
+  display: inline-block;
+  font-family: 'IBM Plex Mono', monospace;
+  height: 35em;
+  margin: 0;
+  position: static;
+  text-align:center;
+  width: 20em;
+
+}
+
+#left_box {
+  border-left: 0.1em dotted seaGreen;
+  border-right: 0.1em dotted seaGreen;
+  position: absolute;
+  margin-top: 0;
+}
+
+#left_box .first_p{
+  text-align: center;
+  font-size: 2em;
+}
+
+#left_box .second_p{
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  text-align: justify;
+}
+
+#left_box img{
+  bottom: 4em;
+  left: 3em;
+  position: absolute;
+
 }
