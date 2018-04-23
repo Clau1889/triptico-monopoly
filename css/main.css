@@ -22,12 +22,10 @@ body{
   position: static;
   text-align:center;
   width: 20em;
-
 }
 
 #left_box {
   border-left: 0.1em dotted seaGreen;
-  border-right: 0.1em dotted seaGreen;
   position: absolute;
   margin-top: 0;
 }
@@ -47,5 +45,23 @@ body{
   bottom: 4em;
   left: 3em;
   position: absolute;
+}
 
+#center_box {
+  border-left: 0.1em dotted seaGreen;
+  border-right: 0.1em dotted seaGreen;
+  left: 20em;
+  position: absolute;
+  margin-top: 0;
+}
+
+#center_box .first_p{
+  text-align: center;
+  font-size: 2em;
+}
+
+#center_box .phrase{
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  text-align: justify;
 }
