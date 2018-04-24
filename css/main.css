@@ -92,16 +92,15 @@ body{
   width: 12em;
 }
 
-#footer{
+footer{
   background-color: oliveDrab;
   border: 0.1em solid seaGreen;
   color: paleGoldenRod;
   display: inline;
-  font-size: 0.7em;
+  font-size: 1em;
   height: 1.5em;
-  padding-bottom: 0.5em;
   position: absolute;
   text-align: center;
-  top: 50em;
-  width: 85.1em;
+  top: 35em;
+  width: 59.5em;
 }
